@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Elm Language Support",
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control"
