@@ -2,9 +2,29 @@
 
 Config files for various things
 
-## Initial setup
+## Things to install on a new machine
+
+- Homebrew
+- git (via homebrew)
+- BTT (Better Touch Tool)
+- iterm2
+- Launchbar
+- Omnifocus
+- zsh and:
+    + oh-my-zsh
+    + powerlevel9k theme
+    + powerline fonts
+- Sublime text 3
+- Miniconda
+
+## Shared configuration (this repo)
 
 First clone this repo to `~/configuration`
+
+### Dotfiles
+
+TODO
+
 
 ### Sublime Text
 
