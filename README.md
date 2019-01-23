@@ -16,6 +16,11 @@ Config files for various things
     + powerline fonts
 - Sublime text 3
 - Miniconda
+- Evernote
+- Dropbox
+- Mactex
+- Skim
+- Spotify
 
 ## Shared configuration (this repo)
 
