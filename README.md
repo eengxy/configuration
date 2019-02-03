@@ -26,10 +26,13 @@ Config files for various things
 
 First clone this repo to `~/configuration`
 
+### Better touch tool
+- Import trigger file
+- Download and install Golden Chaos touchbar configuration - Don't forget to update configuration according to instructions
+
 ### Dotfiles
 
 TODO
-
 
 ### Sublime Text
 
