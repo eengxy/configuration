@@ -113,6 +113,10 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 # Set username to reduce prompt
 export DEFAULT_USER=eeng
 
+# miniconda
+export PATH="/usr/local/miniconda3/bin:$PATH"
+
+
 
 
 # MUST BE AT THE END OF .zshrc

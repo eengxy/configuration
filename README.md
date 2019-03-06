@@ -115,6 +115,17 @@ There are some dependencies so they should be done roughly in this order. Please
 
 #### Miniconda
 
+- `brew cask install miniconda`
+- Add to `.zshrc`:
+```
+# miniconda
+export PATH="/usr/local/miniconda3/bin:$PATH"
+```
+- Finally do a `conda update conda`
+
+
+### TBD
+
 #### Evernote
 
 #### Mactex
