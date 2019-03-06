@@ -1,2 +1,2 @@
 [core]
-    editor = sublime -n -w
+    editor = subl -n -w
