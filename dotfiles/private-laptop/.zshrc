@@ -8,9 +8,7 @@ export ZSH="/Users/eeng/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="powerlevel9k/powerlevel9k"
-#ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -65,8 +63,9 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  osx
+	git
+	osx
+	brew
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -101,3 +100,21 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+
+# powerlevel9k theme
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+
+# zsh-autosuggestions
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+# Set username to reduce prompt
+export DEFAULT_USER=eeng
+
+
+
+# MUST BE AT THE END OF .zshrc
+# zsh syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
