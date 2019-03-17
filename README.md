@@ -116,11 +116,8 @@ There are some dependencies so they should be done roughly in this order. Please
 #### Miniconda
 
 - `brew cask install miniconda`
-- Add to `.zshrc`:
-```
-# miniconda
-export PATH="/usr/local/miniconda3/bin:$PATH"
-```
+- `conda init zsh`
+- (If this fails, add this path to `.zshrc`: `export PATH="/usr/local/miniconda3/bin:$PATH"`)
 - Finally do a `conda update conda`
 
 
