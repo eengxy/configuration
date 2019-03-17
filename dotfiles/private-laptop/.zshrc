@@ -104,6 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # powerlevel9k theme
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 
+# Prompt
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context anaconda dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+
 # zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
