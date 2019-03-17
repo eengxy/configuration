@@ -8,7 +8,7 @@ export ZSH="/Users/eeng/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -100,13 +100,21 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-
 # powerlevel9k theme
-source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+# source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context anaconda dir vcs)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+# Set username to reduce prompt in powerlevel9k theme
+# export DEFAULT_USER=eeng
 
-# Prompt
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context anaconda dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+# spaceship settings
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_PROMPT_ORDER=(user dir host git elixir julia docker aws venv conda pyenv kubecontext exec_time line_sep jobs exit_code char)
+SPACESHIP_RPROMPT_ORDER=(time)
+SPACESHIP_TIME_COLOR=yellow
+if [[ $CONDA_DEFAULT_ENV == base ]]; then
+  SPACESHIP_CONDA_SHOW=false
+fi
 
 # zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -114,8 +122,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-# Set username to reduce prompt
-export DEFAULT_USER=eeng
 
 # miniconda
 # export PATH="/usr/local/miniconda3/bin:$PATH"  # commented out by conda initialize

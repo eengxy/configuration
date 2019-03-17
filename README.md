@@ -83,9 +83,19 @@ There are some dependencies so they should be done roughly in this order. Please
 - Add some plugins for oh-my-zsh if you want
 - Check out the existing ones in the dotfiles dir and copy some settings
 
-#### powerlevel9k theme and fonts
+#### zsh theme 
+
+Pick one of:
+##### powerlevel9k theme 
 
 - Using homebrew or git, see: https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#macos-with-homebrew
+
+##### spaceship
+- see: https://github.com/denysdovhan/spaceship-prompt
+- disable native conda prompt by running `conda config --set changeps1 False`
+
+#### powerlevel fonts
+
 - Download at least one powerlevel font. Open the downloaded font and press "Install Font". Set this font in iTerm2 (iTerm → Preferences → Profiles → Text → Change Font). Then restart iTerm2 for all changes to take effect.
 		- Meslo: https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
 		- SourceCodePro: https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf
