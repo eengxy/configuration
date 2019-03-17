@@ -117,6 +117,10 @@ export DEFAULT_USER=eeng
 export PATH="/usr/local/miniconda3/bin:$PATH"
 
 
+# Google cloud
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
+
 
 
 # MUST BE AT THE END OF .zshrc
