@@ -16,7 +16,7 @@ There are some dependencies so they should be done roughly in this order. Please
 - Open ST3, install package control (shift-cmd-P), and then close it
 - In `~/Library/Application Support/Sublime Text 3/Packages`, do:
     - `rm -rf User/`
-    - `ln -s ~/configuration/Sublime\ Text\ 3/Packages/User/ User`
+    - `ln -s ~/configuration/sublime-text-3/Packages/User/ User`
 - Re-start Sublime, then all missing packages should be installed automatically.
 
 #### git
