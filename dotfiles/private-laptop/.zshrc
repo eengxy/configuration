@@ -112,9 +112,6 @@ SPACESHIP_TIME_SHOW=true
 SPACESHIP_PROMPT_ORDER=(user dir host git elixir julia docker aws venv conda pyenv kubecontext exec_time line_sep jobs exit_code char)
 SPACESHIP_RPROMPT_ORDER=(time)
 SPACESHIP_TIME_COLOR=yellow
-if [[ $CONDA_DEFAULT_ENV == base ]]; then
-  SPACESHIP_CONDA_SHOW=false
-fi
 
 # zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh

@@ -93,6 +93,7 @@ Pick one of:
 ##### spaceship
 - see: https://github.com/denysdovhan/spaceship-prompt
 - disable native conda prompt by running `conda config --set changeps1 False`
+- Optionally, add the line `[[ $CONDA_DEFAULT_ENV == base ]] && return` to the file `.oh-my-zsh/custom/themes/spaceship-prompt/sections/conda.zsh` in order to remove the conda env section when the base environment is activated
 
 #### powerlevel fonts
 
