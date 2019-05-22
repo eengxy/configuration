@@ -8,7 +8,7 @@ export ZSH="/Users/ereng/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -96,17 +96,17 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+# spaceship settings
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_PROMPT_ORDER=(user dir host git elixir julia docker aws venv conda pyenv kubecontext exec_time line_sep jobs exit_code char)
+SPACESHIP_RPROMPT_ORDER=(time)
+SPACESHIP_TIME_COLOR=yellow
+
 # zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # miniconda
 export PATH="/usr/local/miniconda3/bin:$PATH"
-
-# powerlevel9k theme
-source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
-
-# Set username to reduce prompt
-export DEFAULT_USER=ereng
 
 # MUST BE AT THE END OF .zshrc
 # zsh syntax highlighting
