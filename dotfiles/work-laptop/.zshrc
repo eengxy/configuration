@@ -106,7 +106,22 @@ SPACESHIP_TIME_COLOR=yellow
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # miniconda
-export PATH="/usr/local/miniconda3/bin:$PATH"
+# export PATH="/usr/local/miniconda3/bin:$PATH"  # commented out by conda initialize
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/usr/local/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/usr/local/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/usr/local/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/usr/local/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
 # MUST BE AT THE END OF .zshrc
 # zsh syntax highlighting
