@@ -123,6 +123,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Google cloud
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
+
+
 # MUST BE AT THE END OF .zshrc
 # zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
