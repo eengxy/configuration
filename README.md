@@ -43,11 +43,6 @@ There are some dependencies so they should be done roughly in this order. Please
 - Create a dir to store your dotfiles
     - `$ mkdir ~/configuration/dotfiles/<computername>`
 
-#### iterm2
-
-- `brew cask install iterm2`
-- Configure it to load preferences from the configuration dir
-
 #### zsh
 
 - Install using `brew install zsh`
@@ -58,6 +53,13 @@ There are some dependencies so they should be done roughly in this order. Please
 - move your dotfile and create a symlink: (can be skipped if planning to install oh-my-zsh)
     - `mv ~/.zshrc ~/configuration/dotfiles/<computername>/`
     - `ln -s ~/configuration/dotfiles/<computername>/.zshrc ~/.zshrc`
+
+#### iterm2
+
+- `brew cask install iterm2`
+- Configure it to load preferences from the configuration dir
+- Install shell integration, see: https://www.iterm2.com/documentation-shell-integration.html
+    - If you are planning to use the spaceship prompt and want to disable the blue triangle added by shell integration, you can turn it off by going in to Preferences > Profiles > (your profile) > Terminal, scroll down to "Shell Integration", and turn off "Show mark indicators".
 
 #### oh-my-zsh
 
