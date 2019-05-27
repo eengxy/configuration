@@ -94,6 +94,8 @@ Pick one of:
 
 ##### spaceship
 - see: https://github.com/denysdovhan/spaceship-prompt
+    - If using iterm2 terminal integration, set `SPACESHIP_PROMPT_ADD_NEWLINE=false
+` in `.zshrc` to not double-add newlines
 
 #### powerlevel fonts
 
