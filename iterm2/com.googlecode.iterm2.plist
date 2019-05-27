@@ -736,6 +736,8 @@
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/configuration/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -755,7 +757,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAc7Gdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -776,24 +778,25 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSUserKeyEquivalents</key>
+	<dict>
+		<key>Open Autocomplete...</key>
+		<string>@.</string>
+		<key>Open Command History...</key>
+		<string>@$.</string>
+	</dict>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>1068 310 445 456 0 0 1680 1027 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>530 493 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>436 287 796 486 0 0 1680 1027 </string>
+	<string>650 467 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>840 69 836 958 0 0 1680 1027 </string>
+	<string>840 68 837 959 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 84 570 452 0 0 1680 1027 </string>
+	<string>840 68 837 959 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 575 570 452 0 0 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>840 87 570 452 0 0 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>840 575 570 452 0 0 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>840 575 570 452 0 0 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 6</key>
-	<string>380 401 570 452 0 0 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 7</key>
-	<string>401 378 570 452 0 0 1680 1027 </string>
+	<string>233 78 585 452 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1566,16 +1569,14 @@
 			<string>/Users/eeng</string>
 		</dict>
 	</array>
-	<key>NoSyncHaveRequestedFullDiskAccess</key>
-	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>E4393A66-6B04-485A-8921-69B9390026B3</string>
+	<string>1BE90151-8914-49DE-9A8B-9C577CE45F42</string>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>571348679.92920601</real>
+	<real>570724362.825508</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1616,11 +1617,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=69</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=61</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-03-06T20:17:09Z</date>
+	<date>2019-05-22T12:16:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -1632,7 +1633,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.2.7</string>
+	<string>3.2.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
